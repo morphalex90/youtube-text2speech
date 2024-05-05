@@ -18,5 +18,5 @@ print(transcription_text)
 # Generate audio from text ------------------------------------------
 from gtts import gTTS
 
-myobj = gTTS(text=transcription_text, lang='en', slow=False)
+myobj = gTTS(text=transcription_text, lang='en', tld='co.uk', slow=False)
 myobj.save("output/converted.mp3")
