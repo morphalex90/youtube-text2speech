@@ -2,4 +2,7 @@
 pytube
 openai-whisper
 ffmpeg-python
+
 gTTS
+
+youtube-search
