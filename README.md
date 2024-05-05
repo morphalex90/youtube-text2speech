@@ -5,4 +5,4 @@
 - `bew install ffmpeg` if you are on MacOS, https://phoenixnap.com/kb/ffmpeg-windows if you are on Windows, `sudo apt install ffmpeg` if you are on Ubuntu
 
 ## Run
-`python3 youtube.py`
+`python3 search.py`
