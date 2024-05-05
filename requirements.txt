@@ -1,7 +1,5 @@
 ###### Requirements without Version Specifiers ######
 pytube
-whisper
 openai-whisper
-SpeechRecognition
-pydub
 ffmpeg-python
+gTTS

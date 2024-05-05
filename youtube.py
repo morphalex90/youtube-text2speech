@@ -13,3 +13,10 @@ model = whisper.load_model("base")
 result = model.transcribe(filename, fp16=False, language="en")
 transcription_text = result['text']
 print(transcription_text)
+
+
+# Generate audio from text ------------------------------------------
+from gtts import gTTS
+
+myobj = gTTS(text=transcription_text, lang='en', slow=False)
+myobj.save("output/converted.mp3")
